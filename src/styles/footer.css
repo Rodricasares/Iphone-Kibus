@@ -1,0 +1,120 @@
+.klogo{
+width: 44px;
+height: 38px;
+margin-left: 32px;
+
+}
+.footer{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+    
+    height: 772.77px;
+
+    top: 3527.27px;
+    background-color: #111111;
+}
+.kibus1{
+    width: 327px;
+    height: 182px;
+
+    color: #FFFFFF;
+/* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.titulo0{
+    width: 150px;
+    height: 22px;
+    
+    /* M-L H2 Header */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 135% */
+    
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.text{
+    width: 327px;
+    height: 110px;
+    
+    /* M-S Body */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+    
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.politicas{
+    width: 327px;
+    left: 1px;
+    top: 3435px;
+    
+    background: #111111;
+}
+.text0{
+height: 22px;
+
+/* M-S Body */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.imgPago{
+    width: 256px;
+    height: 36px;
+    margin-left: 30;
+   
+    }
+    .rs{
+        display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+width: 137px;
+height: 20px;
+    }

@@ -1,0 +1,36 @@
+.iconsCol{
+    width: 332px;
+    height: 536px;
+    left: 22px;
+    top: 2825px;
+}
+
+.icon[data-animation="bonus"] a::before{
+    width: 158px;
+    height: 145px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /*efect*/
+
+}
+
+.icon:hover {filter: opacity(.2);}
+
+.icon2[data-animation="bonus"] a::before{
+    width: 158px;
+    height: 146px;
+/* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.icon2:hover {filter: opacity(.2);}
+ 
+
+  

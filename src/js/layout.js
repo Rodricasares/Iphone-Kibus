@@ -9,6 +9,11 @@ import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
+import {Carusel } from "./component/carusel";
+import { Food } from "./component/food";
+import { Eat } from "./component/eat";
+import { Icons } from "./component/icons";
+import { Alimentos } from "./component/alimentos";
 
 //create your first component
 const Layout = () => {
@@ -18,12 +23,20 @@ const Layout = () => {
 
 	return (
 		<div>
+						<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet"/>
 			<BrowserRouter basename={basename}>
 				<ScrollToTop>
 					<Navbar />
 					<Switch>
 						<Route exact path="/">
 							<Home />
+							<Alimentos />
+							<Carusel />
+							<Food />
+							<Eat />
+							<Icons />
 						</Route>
 						<Route exact path="/demo">
 							<Demo />

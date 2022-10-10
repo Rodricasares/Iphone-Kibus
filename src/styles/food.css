@@ -1,57 +1,36 @@
 
-    
-body{
-display:block;
-margin-left: auto;
-margin-right: auto;
-width: 375px;
-height: 4405px;
-background: #FFFFFF;
-}
-/*navBar*/
-.nav{
-    position: absolute;
-width: 375px;
-height: 83px;
-left: 0px;
-top: 0px;
-}
-
-/* home*/
-
-.kibus{
-    width: 369px;
-    height: 335px;
-
+.food{
+    margin: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+    width: 327px;
+    height: 402px;
+    left: 25px;
+    top: 1719px;
 
 }
 
-.point{
-    width: 7px;
-    height: 7px;
-    left: 1014px;
-    top: 536px;
-    position: absolute;
 
-
-}
 .text1{
+    margin: auto;
     width: 333px;
-    height: 35px;
+    height: 131px;
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 25px;
     line-height: 32px;
     display: flex;
     align-items: center;
     color: #000000;
 }
 
-p{
+.text2{
     margin: auto;
     padding: 1px;
     width: 332px;
-    height: 90px;
+    height: 270px;
     top: 515px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -63,21 +42,22 @@ p{
 }
 
 .btnhome{
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 16px;
+
 
     width: 327px;
-    height: 116px;
+    height: 140px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
    
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-  
-    display: flex;
+    margin-top: 40px ;
     flex-direction: row;
     justify-content: center;
     align-items: center;

@@ -1,0 +1,19 @@
+.alimentos{
+    position: absolute;
+width: 351px;
+height: 398px;
+left: 25px;
+top: 798px;
+
+background: #FFFFFF;
+}
+.car-text{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 28px;
+/* identical to box height, or 127% */
+
+text-align: center;
+}
